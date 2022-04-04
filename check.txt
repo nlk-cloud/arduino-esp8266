@@ -1,0 +1,10 @@
+check:
+
+In settings.h 
+    mqttClientid on line 21
+    should AAda_MQTT_Enable be replaced with node-red enable?
+
+Webpage.h is not edited. Is it needed?
+WebserverSetup.h is not edited. Is it needed?
+JSON.h -- some parameters are converted to string ( refer to the end of the file). Not sure why. Hence commented them
+ 
